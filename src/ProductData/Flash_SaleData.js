@@ -1,7 +1,7 @@
 export let item = [
   {
     discount: "40%",
-    image: "/image3.png",
+    image: "image3.png",
     itemName: "HAVIT HV-G92 Gamepad",
     discountPrice: "$120",
     orginalPrice: "$160",
@@ -9,7 +9,7 @@ export let item = [
   },
   {
     discount: "35%",
-    image: "/image4.png",
+    image: "image4.png",
     itemName: "AK-900 Wired Keyboard",
     discountPrice: "$960",
     orginalPrice: "$1160",
@@ -18,7 +18,7 @@ export let item = [
 
     {
     discount: "30%",
-    image: "/image5.png",
+    image: "image5.png",
     itemName: "IPS LCD Gaming Monitor",
     discountPrice: "$370",
     orginalPrice: "$400",
@@ -27,7 +27,7 @@ export let item = [
 
       {
     discount: "28%",
-    image: "/image6.png",
+    image: "image6.png",
     itemName: "S-Series Comfort Chair ",
     discountPrice: "$375",
     orginalPrice: "$400",

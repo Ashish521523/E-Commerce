@@ -1,15 +1,13 @@
 export let saleitem = [
   {
-    
-    image: "/image7.png",
+    image: "image7.png",
     itemName: "The north coat",
     discountPrice: "$260",
     orginalPrice: "$350",
     reating: "⭐⭐⭐⭐⭐ (65)",
   },
   {
-    
-    image: "/image8.png",
+    image: "image8.png",
     itemName: "Gucci duffle bag",
     discountPrice: "$960",
     orginalPrice: "$1160",
@@ -17,8 +15,7 @@ export let saleitem = [
   },
 
   {
-   
-    image: "/image9.png",
+    image: "image9.png",
     itemName: "RGB liquid CPU Cooler",
     discountPrice: "$160",
     orginalPrice: "$170",
@@ -26,8 +23,7 @@ export let saleitem = [
   },
 
   {
-    
-    image: "/image10.png",
+    image: "image10.png",
     itemName: "Small BookSelf ",
     discountPrice: "$360",
     reating: "⭐⭐⭐⭐⭐ (65)",

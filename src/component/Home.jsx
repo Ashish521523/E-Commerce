@@ -37,7 +37,7 @@ function Home() {
         <div className="banner">
           <div className="banner-content">
             <div className="brand">
-              <img src="/image2.png" className="apple" />
+              <img src="image2.png" className="apple" />
 
               <span>iPhone 14 Series</span>
             </div>
@@ -54,7 +54,7 @@ function Home() {
             </button>
           </div>
           <div className="banner-image">
-            <img src="/image1.jpg" alt="iphone" />
+            <img src="image1.jpg" alt="iphone" />
           </div>
         </div>
       </section>

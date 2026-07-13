@@ -12,7 +12,7 @@ function Flash_Sales({ data }) {
             <div className="itemdiscount">
               <p1>{data.discount}</p1>
             </div>
-            <div className="iconContenar">
+            <div className="iconContenar1">
               <span className="image_icone">
                 <FaRegHeart className="image_size" />
               </span>

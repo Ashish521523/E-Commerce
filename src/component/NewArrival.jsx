@@ -7,7 +7,7 @@ function NewArrival() {
     <section className="featured">
       {/* Left */}
       <div className="playstation card">
-        <img src="/image19.png" alt="PlayStation" />
+        <img src="image19.png" alt="PlayStation" />
 
         <div className="content">
           <h2>PlayStation 5</h2>
@@ -23,7 +23,7 @@ function NewArrival() {
       <div className="right">
         {/* Women */}
         <div className="women card">
-          <img src="/image20.jpg" alt="Women's Collection" />
+          <img src="image20.jpg" alt="Women's Collection" />
 
           <div className="content">
             <h3>Women's Collections</h3>
@@ -42,7 +42,7 @@ function NewArrival() {
         <div className="bottom">
           {/* Speaker */}
           <div className="speaker card">
-            <img src="/image21.png" alt="Speaker" />
+            <img src="image21.png" alt="Speaker" />
 
             <div className="content">
               <h3>Speakers</h3>
@@ -57,7 +57,7 @@ function NewArrival() {
 
           {/* Perfume */}
           <div className="perfume card">
-            <img src="/image22.png" alt="Perfume" />
+            <img src="image22.png" alt="Perfume" />
 
             <div className="content">
               <h3>Perfume</h3>

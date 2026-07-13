@@ -44,7 +44,7 @@ function EnhanceMusic() {
         </div>
 
         <div className="hero-right">
-          <img src="/image11.png" alt="speaker" />
+          <img src="image11.png" alt="speaker" />
         </div>
       </section>
     </>
