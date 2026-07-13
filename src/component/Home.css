@@ -1,0 +1,132 @@
+.hero {
+  display: flex;
+  justify-content: space-around;
+}
+
+.category {
+  max-width: 217px;
+  height: 444px;
+}
+.category ul {
+  list-style: none;
+}
+
+.category li {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.category li:hover {
+  color: #db4444;
+  padding-left: 2px;
+}
+
+.arrowicon {
+  margin-left: 2rem;
+}
+
+.arrowicon1 {
+  margin-left: 57px;
+}
+
+/* Banner */
+
+.banner {
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  overflow: hidden;
+  width: 994px;
+  height: 445px;
+  margin-right: 20px;
+}
+
+.banner-content {
+  max-width: 420px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.apple {
+  width: 45px;
+  height: 49px;
+}
+
+.banner h1 {
+  font-size: 56px;
+  line-height: 70px;
+  margin-bottom: 35px;
+}
+
+.banner button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+}
+
+.banner-image img {
+  width: 100%;
+  max-width: 430px;
+}
+
+
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .category {
+    display: flex;
+    align-items: center;
+  }
+
+  .category ul {
+    grid-template-columns: 1fr;
+  }
+
+  .banner {
+    width: 21rem;
+    height: 31rem;
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .brand {
+    justify-content: center;
+  }
+
+  .banner h1 {
+    font-size: 34px;
+    line-height: 45px;
+  }
+
+  .banner button {
+    margin: auto;
+  }
+
+  .banner-image img {
+    max-width: 260px;
+  }
+}

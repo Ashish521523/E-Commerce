@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.featured {
+  max-width: 95%;
+  height: 700px;
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+/* Common */
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #000;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.15));
+}
+
+.content {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  z-index: 2;
+  color: #fff;
+}
+
+.card-icon {
+  font-size: 26px;
+  margin-bottom: 12px;
+}
+
+.content h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.content h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 15px;
+  color: #ddd;
+  line-height: 24px;
+  margin-bottom: 18px;
+  max-width: 260px;
+}
+
+.content a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 3px;
+}
+
+/* Left */
+
+.playstation {
+  height: 700px;
+}
+
+/* Right */
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.women {
+  height: 300px;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  flex: 1;
+}
+
+.speaker,
+.perfume {
+  height: 375px;
+}
+
+/* Tablet */
+
+@media (max-width: 992px) {
+  .featured {
+    max-width: 95%;
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .playstation {
+    height: 500px;
+  }
+
+  .women {
+    height: 300px;
+  }
+
+  .bottom {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .speaker,
+  .perfume {
+    height: 280px;
+  }
+
+  .content h2 {
+    font-size: 28px;
+  }
+
+  .content h3 {
+    font-size: 22px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .bottom {
+    grid-template-columns: 1fr;
+  }
+
+  .playstation {
+    height: 420px;
+  }
+
+  .women {
+    height: 250px;
+  }
+
+  .speaker,
+  .perfume {
+    height: 240px;
+  }
+
+  .content {
+    left: 18px;
+    bottom: 18px;
+  }
+
+  .content h2 {
+    font-size: 24px;
+  }
+
+  .content h3 {
+    font-size: 20px;
+  }
+
+  .content p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

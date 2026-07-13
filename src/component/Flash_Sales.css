@@ -1,0 +1,124 @@
+.flash_Sales_Contenar {
+  margin-top: 1rem;
+}
+.flash_image {
+  width: 182px;
+  height: 162px;
+  margin-left: 48px;
+}
+
+.itemdiscount {
+  width: 55px;
+  height: 26px;
+  background-color: red;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.image_Contenar {
+  width: 270px;
+  height: 250px;
+  background-color: #f5f5f5;
+  padding-top: 10px;
+}
+
+.image_icone {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.image_size {
+  width: 25px;
+  height: 20px;
+}
+
+.iconContenar {
+  position: absolute;
+  margin-left: 14rem;
+  margin-top: -21px;
+}
+
+.item_price {
+  color: red;
+  margin-right: 10px;
+}
+
+.item_price1 {
+  text-decoration: line-through;
+}
+
+.item_main_contenar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card_Contenar {
+  position: relative;
+  display: inline-block;
+}
+
+.addbutton1{
+  width: 17rem;
+  height: 46px;
+  background-color: black;
+  color: white;
+  display: none;
+  margin-top: 5px;
+}
+
+.card_Contenar:hover .addbutton1 {
+  display: block;
+}
+
+.viewbutton {
+  width: 18rem;
+  height: 3rem;
+  background-color: red;
+  color: white;
+  border-radius: 6px;
+}
+
+.viewbuttonContenar {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.todat_data {
+  display: flex;
+  margin-left: 5rem;
+  margin-top: 4rem;
+}
+
+.todat_data span {
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+.border {
+  width: 15px;
+  height: 2rem;
+  background-color: red;
+}
+
+.flash_sales_name {
+  display: flex;
+  margin-left: 5rem;
+  margin-top: 3rem;
+}
+
+.flash_sales_name1 {
+  font-size: 2rem;
+  margin-left: 10px;
+}
+
+@media (max-width: 640px) {
+  .item_main_contenar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
