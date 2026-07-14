@@ -17,6 +17,7 @@ import NewArrival from "./component/NewArrival";
 import NewArrivalHead from "./component/NewArrivalHead";
 import Support from "./component/Support";
 
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
       <NewArrival></NewArrival>
       <Support></Support>
 
+      <Outlet></Outlet>
       <Footer></Footer>
     </>
   );

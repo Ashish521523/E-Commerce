@@ -3,6 +3,7 @@ import "./Header.css";
 import { CiSearch, CiHeart } from "react-icons/ci";
 import { HiOutlineShoppingCart } from "react-icons/hi2";
 import { FiAlignJustify } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 function Header() {
   let [mobiletype, setMobiletype] = useState(false);
@@ -17,10 +18,18 @@ function Header() {
       </div>
       <div className={mobiletype ? "menuMobile" : "menuWeb"}>
         <ul className="heaeritem">
-          <li>Home</li>
-          <li>Contact</li>
-          <li>About</li>
-          <li>Sign Up</li>
+          <Link to="/" className="nav-link">
+            <li>Home</li>
+          </Link>
+          <Link to="/" className="nav-link">
+            <li>Contact</li>
+          </Link>
+          <Link to="/" className="nav-link">
+            <li>About</li>
+          </Link>
+          <Link to="/" className="nav-link">
+            <li>Sign Up</li>
+          </Link>
         </ul>
       </div>
 
@@ -37,9 +46,11 @@ function Header() {
           <CiHeart className="headericon1" />
         </span>
 
-        <span>
-          <HiOutlineShoppingCart className="headericon1" />
-        </span>
+        <Link to="/bag">
+          <span>
+            <HiOutlineShoppingCart className="headericon1" />
+          </span>
+        </Link>
 
         <span onClick={handelMobilesite}>
           <FiAlignJustify className="headericon2" />

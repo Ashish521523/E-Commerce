@@ -15,6 +15,10 @@
   text-decoration: none;
 }
 
+.nav-link{
+  text-decoration: none;
+}
+
 .heaeritem li {
   list-style: none;
   margin-left: 20px;

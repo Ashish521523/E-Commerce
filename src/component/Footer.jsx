@@ -11,9 +11,7 @@ import {
 function Footer() {
   return (
     <footer className="footer">
-
       <div className="footer-container">
-
         {/* Logo */}
 
         <div className="footer-box">
@@ -24,20 +22,15 @@ function Footer() {
           <p>Get 10% off your first order</p>
 
           <div className="email-box">
-            <input
-              type="email"
-              placeholder="Enter your email"
-            />
+            <input type="email" placeholder="Enter your email" />
 
             <FaTelegramPlane className="send-icon" />
           </div>
-
         </div>
 
         {/* Support */}
 
         <div className="footer-box">
-
           <h3>Support</h3>
 
           <p>
@@ -49,13 +42,11 @@ function Footer() {
           <p>exclusive@gmail.com</p>
 
           <p>+88015-88888-9999</p>
-
         </div>
 
         {/* Account */}
 
         <div className="footer-box">
-
           <h3>Account</h3>
 
           <a href="/">My Account</a>
@@ -67,13 +58,11 @@ function Footer() {
           <a href="/">Wishlist</a>
 
           <a href="/">Shop</a>
-
         </div>
 
         {/* Quick Link */}
 
         <div className="footer-box">
-
           <h3>Quick Link</h3>
 
           <a href="/">Privacy Policy</a>
@@ -83,45 +72,26 @@ function Footer() {
           <a href="/">FAQ</a>
 
           <a href="/">Contact</a>
-
         </div>
 
         {/* Download */}
 
         <div className="footer-box">
-
           <h3>Download App</h3>
 
           <small>Save $3 with App New User Only</small>
 
           <div className="download">
-
-            <img
-              src="image23.jpg"
-              alt=""
-              className="qr"
-            />
+            <img src="image23.jpg" alt="" className="qr" />
 
             <div>
+              <img src="image24.png" alt="" className="store" />
 
-              <img
-                src="image24.png"
-                alt=""
-                className="store"
-              />
-
-              <img
-                src="image25.png"
-                alt=""
-                className="store"
-              />
-
+              <img src="image25.png" alt="" className="store" />
             </div>
-
           </div>
 
           <div className="social">
-
             <FaFacebookF />
 
             <FaTwitter />
@@ -129,19 +99,15 @@ function Footer() {
             <FaInstagram />
 
             <FaLinkedinIn />
-
           </div>
-
         </div>
-
       </div>
 
       <hr />
-g
+
       <div className="copyright">
         © Copyright Eco-Mart 2026. All rights reserved
       </div>
-
     </footer>
   );
 }

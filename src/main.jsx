@@ -1,10 +1,34 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.jsx";
+import { createHashRouter, RouterProvider } from "react-router-dom";
+import Bag from "./component/Bag.jsx";
+import Header from "./component/Header.jsx";
+import Footer from "./component/Footer.jsx";
+import ItemPrice from "./component/ItemPrice.jsx";
 
-createRoot(document.getElementById('root')).render(
+const router = createHashRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+
+  {
+    path: "/bag",
+    element: (
+      <>
+        <Header></Header>
+        <Bag></Bag>
+        <ItemPrice></ItemPrice>
+        <Footer></Footer>
+      </>
+    ),
+  },
+]);
+
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </StrictMode>,
-)
+);

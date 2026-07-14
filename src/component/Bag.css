@@ -1,0 +1,64 @@
+.bag_main_contenar {
+  width: 50%;
+  float: left;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  color: black;
+}
+.bag_img {
+  width: 9rem;
+  height: 9rem;
+}
+
+.bag_contenar {
+  display: flex;
+  border: 2px, solid, rgb(155, 3, 3);
+  width: 28rem;
+  height: auto;
+  margin-top: 3rem;
+}
+
+.bagitem_contenar {
+  display: flex;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+.bagitem_price {
+  margin-bottom: 1rem;
+}
+
+.bag_button {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 4rem;
+}
+
+@media (max-width: 640px) {
+  .bag_main_contenar {
+    width: 100%;
+  }
+
+  .bag_contenar {
+    width: auto;
+    height: 11rem;
+  }
+
+  .bag_item_name {
+    font-size: 1rem;
+  }
+
+  .bag_item_return {
+    font-size: 12px;
+    margin-left: -34px;
+    margin-bottom: 1px;
+  }
+
+  .bag_item_name {
+    margin-left: -17px;
+  }
+
+  .bag_main_contenar {
+    margin-bottom: 0px;
+  }
+}

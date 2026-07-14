@@ -1,5 +1,6 @@
 export let item = [
   {
+    id: 1,
     discount: "40%",
     image: "image3.png",
     itemName: "HAVIT HV-G92 Gamepad",
@@ -8,6 +9,7 @@ export let item = [
     reating: "⭐⭐⭐⭐⭐ (88)",
   },
   {
+    id: 2,
     discount: "35%",
     image: "image4.png",
     itemName: "AK-900 Wired Keyboard",
@@ -16,7 +18,8 @@ export let item = [
     reating: "⭐⭐⭐⭐⭐ (78)",
   },
 
-    {
+  {
+    id: 3,
     discount: "30%",
     image: "image5.png",
     itemName: "IPS LCD Gaming Monitor",
@@ -25,7 +28,8 @@ export let item = [
     reating: "⭐⭐⭐⭐⭐ (99)",
   },
 
-      {
+  {
+    id: 4,
     discount: "28%",
     image: "image6.png",
     itemName: "S-Series Comfort Chair ",

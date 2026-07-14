@@ -1,0 +1,48 @@
+.item_main_contenars {
+  width: 50%;
+  float: right;
+  margin-top: 2rem;
+}
+.item_button {
+  width: 10rem;
+  height: 2rem;
+  margin-top: 1rem;
+}
+
+.price_contenar {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.price_fixed {
+  display: flex;
+  flex-direction: column;
+}
+
+.price_update {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+}
+
+@media (max-width: 640px) {
+  .item_main_contenars {
+    width: 100%;
+  }
+
+  .item_price_heading {
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .price_contenar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .order_place_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+}

@@ -7,7 +7,7 @@ function Flash_Sales_Contenar() {
     <>
       <div className="item_main_contenar">
         {item.map((data) => (
-          <Flash_Sales key={data.name} data={data}>
+          <Flash_Sales key={data.itemName} data={data}>
             {data}
           </Flash_Sales>
         ))}
