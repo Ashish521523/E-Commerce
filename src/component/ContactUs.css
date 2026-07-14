@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact {
+  width: 100%;
+  padding: 80px 20px;
+  background: #fff;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  align-items: flex-start;
+}
+
+/* Left */
+
+.contact-left {
+  flex: 1;
+}
+
+.contact-subtitle {
+  color: #ff3b6a;
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.contact-left h1 {
+  font-size: 58px;
+  margin: 18px 0;
+  color: #222;
+}
+
+.contact-left p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.address-box {
+  margin-top: 40px;
+}
+
+.address-box h2 {
+  font-size: 40px;
+  margin-bottom: 18px;
+  color: #222;
+}
+
+.address-box p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Right */
+
+.contact-right {
+  flex: 1;
+}
+
+.input-row {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.input-row input {
+  width: 100%;
+  height: 60px;
+}
+
+.contact-right input,
+.contact-right textarea {
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  padding: 18px 22px;
+  font-size: 18px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contact-right textarea {
+  resize: none;
+  margin-bottom: 25px;
+}
+
+.contact-right input:focus,
+.contact-right textarea:focus {
+  border-color: #000;
+}
+
+.contact-right button {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 18px 42px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-right button:hover {
+  background: #ff3b6a;
+}
+
+/* Tablet */
+
+@media (max-width: 992px) {
+  .contact-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .contact-left h1 {
+    font-size: 46px;
+  }
+
+  .address-box h2 {
+    font-size: 32px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .input-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-left h1 {
+    font-size: 38px;
+  }
+
+  .address-box h2 {
+    font-size: 28px;
+  }
+
+  .contact-left p,
+  .address-box p,
+  .contact-right input,
+  .contact-right textarea {
+    font-size: 16px;
+  }
+
+  .contact-right button {
+    width: 100%;
+    padding: 16px;
+  }
+}

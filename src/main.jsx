@@ -8,6 +8,7 @@ import Header from "./component/Header.jsx";
 import Footer from "./component/Footer.jsx";
 import ItemPrice from "./component/ItemPrice.jsx";
 import HandelStore from "./component/BagStore.jsx";
+import ContactUs from "./component/ContactUs.jsx";
 
 const router = createHashRouter([
   {
@@ -26,6 +27,15 @@ const router = createHashRouter([
       </>
     ),
   },
+
+  {
+    path:"/contact",
+    element:<>
+    <Header></Header>
+    <ContactUs></ContactUs>
+    <Footer></Footer>
+    </>
+  }
 ]);
 
 createRoot(document.getElementById("root")).render(
