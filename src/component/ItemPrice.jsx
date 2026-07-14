@@ -1,21 +1,21 @@
-// import React, { useContext } from "react";
+import React, { useContext } from "react";
 import "./ItemPrice.css";
-// import { Bagitem } from "./BagStore";
+import { createStore } from "./BagStore";
 
 function ItemPrice() {
-  // const { additem } = useContext(Bagitem);
+  const { addData } = useContext(createStore);
 
-  // const finalitem = additem;
+  const finalitem = addData;
 
-  // let Convenience_FEE = 99;
-  // let totalItem = additem.length;
-  // let totalMRP = 0;
+  let Convenience_FEE = 99;
+  let totalItem = addData.length;
+  let totalMRP = 0;
 
-  // finalitem.forEach((bagitem) => {
-  //   totalMRP = Number(totalMRP + bagitem.Rs);
-  // });
+  finalitem.forEach((addprice) => {
+    totalMRP = Number(totalMRP + addprice.orginalPrice);
+  });
 
-  // let finalPayment = Number(totalMRP + Convenience_FEE);
+  let finalPayment = Number(totalMRP + Convenience_FEE);
 
   return (
     <div className="item_main_contenars">
@@ -23,15 +23,15 @@ function ItemPrice() {
 
       <div className="price_contenar">
         <div className="price_fixed">
-          <span>Total MRP</span>
+          <span>Total MRP </span>
           <span className="conveniencefee">Convenience Fee</span>
-          <span>Total Amount</span>
+          <span>Total Amount </span>
         </div>
 
         <div className="price_update">
-          <span>₹111</span>
+          <span>₹{totalMRP}</span>
           <span>₹99</span>
-          <span>₹111</span>
+          <span>₹{finalPayment}</span>
         </div>
       </div>
 

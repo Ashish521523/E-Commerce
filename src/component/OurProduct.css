@@ -39,14 +39,15 @@
   margin-left: 14rem;
 }
 
-.item_price {
+ .item_priceor {
   color: red;
   margin-right: 10px;
 }
 
-.item_price1 {
+
+.item_priceds {
   text-decoration: line-through;
-}
+} 
 
 .item_main_contenar {
   display: flex;

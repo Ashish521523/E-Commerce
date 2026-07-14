@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Flash_Sales.css";
 import { FaRegHeart } from "react-icons/fa";
 import { IoEyeOutline } from "react-icons/io5";
+import { createStore } from "./BagStore";
+import { useNavigate } from "react-router-dom";
 
 function Flash_Sales({ data }) {
+  const navigat = useNavigate();
+  const { HandelAddItem } = useContext(createStore);
   return (
     <>
       <div className="card_Contenar">
@@ -22,7 +26,14 @@ function Flash_Sales({ data }) {
               </span>
             </div>
             <img src={data.image} className="flash_image" />
-            <button className="addbutton1">Add To Card</button>
+            <button
+              className="addbutton1"
+              onClick={() => {
+                (HandelAddItem(data), navigat("/bag"));
+              }}
+            >
+              Add To Card
+            </button>
           </div>
           <div>
             <p>{data.itemName}</p>

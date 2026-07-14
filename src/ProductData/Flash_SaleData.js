@@ -4,8 +4,8 @@ export let item = [
     discount: "40%",
     image: "image3.png",
     itemName: "HAVIT HV-G92 Gamepad",
-    discountPrice: "$120",
-    orginalPrice: "$160",
+    discountPrice: "120",
+    orginalPrice: "160",
     reating: "⭐⭐⭐⭐⭐ (88)",
   },
   {
@@ -13,8 +13,8 @@ export let item = [
     discount: "35%",
     image: "image4.png",
     itemName: "AK-900 Wired Keyboard",
-    discountPrice: "$960",
-    orginalPrice: "$1160",
+    discountPrice: "960",
+    orginalPrice: "1160",
     reating: "⭐⭐⭐⭐⭐ (78)",
   },
 
@@ -23,8 +23,8 @@ export let item = [
     discount: "30%",
     image: "image5.png",
     itemName: "IPS LCD Gaming Monitor",
-    discountPrice: "$370",
-    orginalPrice: "$400",
+    discountPrice: "370",
+    orginalPrice: "470",
     reating: "⭐⭐⭐⭐⭐ (99)",
   },
 
@@ -33,8 +33,8 @@ export let item = [
     discount: "28%",
     image: "image6.png",
     itemName: "S-Series Comfort Chair ",
-    discountPrice: "$375",
-    orginalPrice: "$400",
+    discountPrice: "300",
+    orginalPrice: "470",
     reating: "⭐⭐⭐⭐⭐ (99)",
   },
 ];

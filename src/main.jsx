@@ -7,6 +7,7 @@ import Bag from "./component/Bag.jsx";
 import Header from "./component/Header.jsx";
 import Footer from "./component/Footer.jsx";
 import ItemPrice from "./component/ItemPrice.jsx";
+import HandelStore from "./component/BagStore.jsx";
 
 const router = createHashRouter([
   {
@@ -29,6 +30,8 @@ const router = createHashRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <HandelStore>
+      <RouterProvider router={router} />
+    </HandelStore>
   </StrictMode>,
 );
