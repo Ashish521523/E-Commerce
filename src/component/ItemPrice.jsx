@@ -12,10 +12,10 @@ function ItemPrice() {
   let totalMRP = 0;
 
   finalitem.forEach((addprice) => {
-    totalMRP = Number(totalMRP + addprice.orginalPrice);
+    totalMRP = Number(totalMRP) + Number(addprice.orginalPrice);
   });
 
-  let finalPayment = Number(totalMRP + Convenience_FEE);
+  let finalPayment = Number(totalMRP) + Number(Convenience_FEE);
 
   return (
     <div className="item_main_contenars">

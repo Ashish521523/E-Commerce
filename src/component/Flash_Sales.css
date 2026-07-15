@@ -59,7 +59,7 @@
   display: inline-block;
 }
 
-.addbutton1{
+.addbutton1 {
   width: 17rem;
   height: 46px;
   background-color: black;
@@ -113,6 +113,12 @@
 .flash_sales_name1 {
   font-size: 2rem;
   margin-left: 10px;
+}
+
+.image_Contenar:hover img {
+  transition: 1s;
+  
+  transform: scale(1.025);
 }
 
 @media (max-width: 640px) {
