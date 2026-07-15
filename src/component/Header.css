@@ -84,6 +84,11 @@
   outline: none;
 }
 
+.icon_bag_card {
+  margin-left: -6px;
+  margin-top: 8px;
+}
+
 @media (max-width: 640px) {
   .heaeritem {
     display: none;

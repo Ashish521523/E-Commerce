@@ -1,11 +1,13 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./Header.css";
 import { CiSearch, CiHeart } from "react-icons/ci";
 import { HiOutlineShoppingCart } from "react-icons/hi2";
 import { FiAlignJustify } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import { createStore } from "./BagStore";
 
 function Header() {
+  const { addData } = useContext(createStore);
   let [mobiletype, setMobiletype] = useState(false);
 
   const handelMobilesite = () => {
@@ -46,9 +48,11 @@ function Header() {
           <CiHeart className="headericon1" />
         </span>
 
-        <Link to="/bag">
-          <span>
-            <HiOutlineShoppingCart className="headericon1" />
+        <Link to="/bag" className="position-relative d-inline-block">
+          <HiOutlineShoppingCart className="headericon1" />
+
+          <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger icon_bag_card">
+            {addData.length}
           </span>
         </Link>
 
