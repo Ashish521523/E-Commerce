@@ -10,22 +10,22 @@ function Flash_Sales({ data }) {
   const { HandelAddItem } = useContext(createStore);
   return (
     <>
-      <div className="card_Contenar">
-        <div className="flash_Sales_Contenar">
-          <div className="image_Contenar">
-            <div className="itemdiscount">
+      <div className="card_Contenar1">
+        <div className="flash_Sales_Contenar1">
+          <div className="image_Contenar1">
+            <div className="itemdiscount1">
               <p1>{data.discount}</p1>
             </div>
             <div className="iconContenar1">
-              <span className="image_icone">
-                <FaRegHeart className="image_size" />
+              <span className="image_icone1">
+                <FaRegHeart className="image_size1" />
               </span>
               <br />
-              <span className="image_icone">
-                <IoEyeOutline className="image_size" />
+              <span className="image_icone1">
+                <IoEyeOutline className="image_size1" />
               </span>
             </div>
-            <img src={data.image} className="flash_image" />
+            <img src={data.image} className="flash_image1" />
             <button
               className="addbutton1"
               onClick={() => {

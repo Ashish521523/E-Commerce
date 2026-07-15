@@ -5,6 +5,7 @@
   width: 182px;
   height: 162px;
   margin-left: 48px;
+  margin-top: -58px;
 }
 
 .image_Contenar {
@@ -27,7 +28,6 @@
 }
 
 .iconContenar {
-  position: absolute;
   margin-left: 14rem;
   margin-top: 10px;
 }
@@ -44,11 +44,6 @@
 .item_main_contenar {
   display: flex;
   justify-content: space-evenly;
-}
-
-.card_Contenar {
-  position: relative;
-  display: inline-block;
 }
 
 .addbutton2 {

@@ -5,15 +5,15 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 function Flash_Sales_Contenar() {
   return (
     <>
-      <div className="item_main_contenar">
+      <div className="item_main_contenar1">
         {item.map((data) => (
           <Flash_Sales key={data.itemName} data={data}>
             {data}
           </Flash_Sales>
         ))}
       </div>
-      <div className="viewbuttonContenar">
-        <button className="viewbutton">View All Products</button>
+      <div className="viewbuttonContenar1">
+        <button className="viewbutton1">View All Products</button>
       </div>
     </>
   );

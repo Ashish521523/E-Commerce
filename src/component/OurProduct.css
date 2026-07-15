@@ -1,13 +1,14 @@
-.flash_Sales_Contenar {
+.flash_Sales_Contenar5 {
   margin-top: 1rem;
 }
-.flash_image {
+.flash_image5 {
   width: 182px;
   height: 162px;
-  margin-left: 48px;
+  margin-left: 30px;
+  margin-top: -45px;
 }
 
-.itemdiscount {
+.itemdiscount5 {
   width: 55px;
   height: 26px;
   background-color: red;
@@ -15,54 +16,50 @@
   margin-left: 10px;
 }
 
-.image_Contenar {
+.image_Contenar5 {
   width: 270px;
   height: 250px;
   background-color: #f5f5f5;
   padding-top: 10px;
 }
 
-.image_icone {
+.image_icone5 {
   width: 50px;
   height: 50px;
   background-color: white;
   border-radius: 50%;
 }
 
-.image_size {
+.image_size5 {
   width: 25px;
   height: 20px;
 }
 
-.iconContenar {
-  position: absolute;
+.iconContenar5 {
   margin-left: 14rem;
 }
 
- .item_priceor {
+.item_priceor5 {
   color: red;
   margin-right: 10px;
 }
 
-
-.item_priceds {
+.item_priceds5 {
   text-decoration: line-through;
-} 
+}
 
-.item_main_contenar {
+.item_main_contenar5 {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
-.card_Contenar {
-  position: relative;
-  display: inline-block;
+.card_Contenar5 {
   margin-left: 2rem;
   margin-right: 2rem;
 }
 
-.addbutton3 {
+.addbutton5 {
   width: 17rem;
   height: 46px;
   background-color: black;
@@ -71,11 +68,11 @@
   margin-top: 30px;
 }
 
-.card_Contenar:hover .addbutton3 {
+.card_Contenar5:hover .addbutton5 {
   display: block;
 }
 
-.viewbutton {
+.viewbutton5 {
   width: 18rem;
   height: 3rem;
   background-color: red;
@@ -83,45 +80,46 @@
   border-radius: 6px;
 }
 
-.viewbuttonContenar {
+.viewbuttonContenar5 {
   display: flex;
   justify-content: center;
+  margin-top: 3rem;
 }
 
-.todat_data {
+.todat_data5 {
   display: flex;
   margin-left: 5rem;
   margin-top: 4rem;
 }
 
-.todat_data span {
+.todat_data5 span {
   margin-top: 4px;
   margin-left: 10px;
 }
 
-.border {
+.border5 {
   width: 15px;
   height: 2rem;
   background-color: red;
 }
 
-.flash_sales_name {
+.flash_sales_name5 {
   display: flex;
   margin-left: 5rem;
   margin-top: 3rem;
 }
 
-.flash_sales_name1 {
+.flash_sales_name5 {
   font-size: 2rem;
   margin-left: 10px;
 }
 
-.reating {
+.reating5 {
   margin-left: 10px;
 }
 
 @media (max-width: 640px) {
-  .item_main_contenar {
+  .item_main_contenar5 {
     display: flex;
     flex-direction: column;
     align-items: center;

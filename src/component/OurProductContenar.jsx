@@ -6,15 +6,15 @@ import { productitem } from "../ProductData/OurProduct";
 function OurProductContenar() {
   return (
     <>
-      <div className="item_main_contenar">
+      <div className="item_main_contenar5">
         {productitem.map((data) => (
           <OurProduct key={data.name} data={data}>
             {data}
           </OurProduct>
         ))}
       </div>
-      <div className="viewbuttonContenar">
-        <button className="viewbutton">View All Products</button>
+      <div className="viewbuttonContenar5">
+        <button className="viewbutton5">View All Products</button>
       </div>
     </>
   );

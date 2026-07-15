@@ -10,21 +10,21 @@ function OurProduct({ data }) {
   const navigat = useNavigate();
   return (
     <>
-      <div className="card_Contenar">
-        <div className="flash_Sales_Contenar">
-          <div className="image_Contenar">
-            <div className="iconContenar">
-              <span className="image_icone">
-                <FaRegHeart className="image_size" />
+      <div className="card_Contenar5">
+        <div className="flash_Sales_Contenar5">
+          <div className="image_Contenar5">
+            <div className="iconContenar5">
+              <span className="image_icone5">
+                <FaRegHeart className="image_size5" />
               </span>
               <br />
-              <span className="image_icone">
-                <IoEyeOutline className="image_size" />
+              <span className="image_icone5">
+                <IoEyeOutline className="image_size5" />
               </span>
             </div>
-            <img src={data.image} className="flash_image" />
+            <img src={data.image} className="flash_image5" />
             <button
-              className="addbutton3"
+              className="addbutton5"
               onClick={() => {
                 (HandelAddItem(data), navigat("/bag"));
               }}
@@ -34,10 +34,10 @@ function OurProduct({ data }) {
           </div>
           <div>
             <p>{data.itemName}</p>
-            <span className="item_priceor">{data.orginalPrice}</span>
+            <span className="item_priceor5">{data.orginalPrice}</span>
 
-            <span className="item_priceds">{data.discountPrice}</span>
-            <span className="reating">{data.reating}</span>
+            <span className="item_priceds5">{data.discountPrice}</span>
+            <span className="reating5">{data.reating}</span>
           </div>
         </div>
       </div>

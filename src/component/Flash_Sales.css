@@ -1,13 +1,14 @@
-.flash_Sales_Contenar {
+.flash_Sales_Contenar1 {
   margin-top: 1rem;
 }
-.flash_image {
+.flash_image1 {
   width: 182px;
   height: 162px;
   margin-left: 48px;
+  margin-top: -28px;
 }
 
-.itemdiscount {
+.itemdiscount1 {
   width: 55px;
   height: 26px;
   background-color: red;
@@ -15,27 +16,26 @@
   margin-left: 10px;
 }
 
-.image_Contenar {
+.image_Contenar1 {
   width: 270px;
   height: 250px;
   background-color: #f5f5f5;
   padding-top: 10px;
 }
 
-.image_icone {
+.image_icone1 {
   width: 50px;
   height: 50px;
   background-color: white;
   border-radius: 50%;
 }
 
-.image_size {
+.image_size1 {
   width: 25px;
   height: 20px;
 }
 
 .iconContenar1 {
-  position: absolute;
   margin-left: 14rem;
   margin-top: -21px;
 }
@@ -49,14 +49,14 @@
   text-decoration: line-through;
 }
 
-.item_main_contenar {
+.item_main_contenar1 {
   display: flex;
   justify-content: space-evenly;
 }
 
 .card_Contenar {
-  position: relative;
-  display: inline-block;
+  /* position: relative;
+  display: inline-block; */
 }
 
 .addbutton1 {
@@ -68,11 +68,11 @@
   margin-top: 5px;
 }
 
-.card_Contenar:hover .addbutton1 {
+.card_Contenar1:hover .addbutton1 {
   display: block;
 }
 
-.viewbutton {
+.viewbutton1 {
   width: 18rem;
   height: 3rem;
   background-color: red;
@@ -80,31 +80,31 @@
   border-radius: 6px;
 }
 
-.viewbuttonContenar {
+.viewbuttonContenar1 {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.todat_data {
+.todat_data1 {
   display: flex;
   margin-left: 5rem;
   margin-top: 4rem;
 }
 
-.todat_data span {
+.todat_data1 span {
   margin-top: 4px;
   margin-left: 10px;
 }
 
-.border {
+.border1 {
   width: 15px;
   height: 2rem;
   background-color: red;
 }
 
-.flash_sales_name {
+.flash_sales_name1 {
   display: flex;
   margin-left: 5rem;
   margin-top: 3rem;
@@ -115,14 +115,14 @@
   margin-left: 10px;
 }
 
-.image_Contenar:hover img {
+.image_Contenar1:hover img {
   transition: 1s;
-  
+
   transform: scale(1.025);
 }
 
 @media (max-width: 640px) {
-  .item_main_contenar {
+  .item_main_contenar1 {
     display: flex;
     flex-direction: column;
     align-items: center;
